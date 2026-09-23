@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
