@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 입력 화면</title>
+</head>
+<body>
+    <main>
+        <h1>Local Study Planner</h1>
+
+        <form method="post" action="">
+            <section>
+                <label for="book-title">책 제목 또는 과목명</label>
+                <input 
+                    type="text"
+                    id="book-title"
+                    name="book-title"
+                >
+            </section>
+
+            <section>
+                <label for="toc">목차</label>
+                <textarea 
+                    id="toc"    
+                    name="toc" 
+                    rows="15"              
+                ></textarea>
+            </section>
+
+            <section>
+                <label for="start-date">시작일</label>
+                <input
+                    type="date" 
+                    id="start-date"    
+                    name="start-date"
+                    >
+            </section>
+
+            <section>
+                <label for="end-date">완료일</label>
+                <input
+                    type="date" 
+                    id="end-date"    
+                    name="end-date"
+                    >
+            </section>
+
+            <button type="submit">
+                학습 계획 만들기
+            </button>
+        </form>
+    </main>
+</body>
+</html>
